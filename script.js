@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>01-JS Basics</title>
-</head>
-<body>
-    <h1>Basics of JS</h1>
 
 
-    <script>
         // Variables declaration keywords: var, let, const
         // Comparison rel keywords: ==, >, <, !=, ||, &&, +=, -=, *=, */,
 
@@ -24,6 +14,4 @@
         else{
             console.log("No, maybe you are someone not relevant to the given criteria");
         }
-    </script>
-</body>
-</html>
+ 
