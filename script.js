@@ -42,3 +42,32 @@ else{
 }
 // Ternary code
 customerAge <= 15 ? console.log("Hey, you are still a kid! You can enter the museum, it's for you") : console.log("Oh sorry, you are an older man, it's not for you.");
+
+// Customer 2 Budget comparison, condition
+let customer2Budget = 320;
+let isLeader = true;
+
+if(customer2Budget >= 30){
+    // console.log("Yes, you can purchase this food and eat");
+}
+else{
+    // console.log("Sorry, you don't have sufficient amount to purchase");
+}
+
+// Discount
+let price = 1000;
+if(price >= 5000){
+    let discount = price * 10 / 100;
+    let payOut = price - discount;
+    console.log("Your  total payout is :" + payOut);
+}
+else{
+    if(price >= 2500){
+        let secondDiscount = price * 5 / 100;
+        let secondPayOut = secondPayOut - price;
+        console.log("Your Total Amount is: " + secondPayOut)
+    }
+    else{
+        console.log("Sorry, there's no discount for you. Your  total payout is: " + price)
+    }
+}
