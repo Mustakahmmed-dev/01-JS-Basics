@@ -35,9 +35,10 @@ let customerAge = 12;
 let freedomF = true;
 
 if(customerAge >= 18 || freedomF === true){
-    console.log("Yes, please" + " " + customer + " You can enter the museum");
+    // console.log("Yes, please" + " " + customer + " You can enter the museum");
 }
 else{
-    console.log("Sorry " + customer + ", You can't enter!");
-
+    // console.log("Sorry " + customer + ", You can't enter!");
 }
+// Ternary code
+customerAge <= 15 ? console.log("Hey, you are still a kid! You can enter the museum, it's for you") : console.log("Oh sorry, you are an older man, it's not for you.");
