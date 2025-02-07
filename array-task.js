@@ -11,3 +11,13 @@ touristDestination.pop();
 
 console.log("Tourist destinations " + touristDestination);
 
+// Books list
+let myBooks = ["HTML", "CSS", "JS", "SQL", "Python", "Ruby"];
+let availableBook = myBooks.includes("Python");
+
+if(availableBook == true){
+    console.log("Yes, I have the book")
+}
+else{
+    console.log("No, I don't have the book")
+}
