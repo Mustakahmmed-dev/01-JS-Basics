@@ -32,3 +32,22 @@ else{
     console.log("You are obese " + BMI)
 }
 
+// Student Grading
+let studentName = "Abdullah";
+let studentScore = 81;
+
+if(studentScore <= 100 && studentScore >= 90){
+    console.log("Your score is: " + "A")
+}
+else if(studentScore > 80){
+    console.log("Your grade is: " + " B ")
+}
+else if(studentScore > 70 ){
+    console.log("Your grade is : " + "C")
+}
+else if(studentScore > 60){
+    console.log("Your score is : " + "D")
+}
+else{
+    console.log("Your grade is : " + "F")
+}
