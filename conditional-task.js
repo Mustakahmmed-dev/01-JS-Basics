@@ -92,5 +92,8 @@ else{
     result = num1 + num2;
     
 }
-console.log("The result is " + result)
+// console.log("The result is " + result)
 
+// Using ternary
+num1 > num2 ? result = num1 * num1 + num2 : result = num1 + num2;
+console.log(result);
