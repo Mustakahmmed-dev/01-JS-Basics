@@ -51,3 +51,30 @@ else if(studentScore > 60){
 else{
     console.log("Your grade is : " + "F")
 }
+
+// Friend scoring - satisfactioning
+let friendScore = 80;
+let myScore = 79;
+if(friendScore > 80){
+    console.log("Let's go for a lunch")
+}
+else if(friendScore >= 60){
+    console.log("Good luck next time my friend")
+}
+else if(friendScore < 60){
+    console.log("Let me keep your message unseen")
+}
+else if(friendScore < 40){
+    console.log("Let me block the friend")
+}
+else{
+    console.log("let's have a big potato")
+}
+
+// myScore
+if(myScore < 80){
+    console.log("Go home and sleep and act like sad")
+}
+else{
+    console.log("Have an icecream party")
+}
