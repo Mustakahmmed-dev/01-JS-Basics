@@ -21,3 +21,19 @@ if(availableBook == true){
 else{
     console.log("No, I don't have the book")
 }
+
+// Checking if it's an array
+var nameList = ["Jafor", "Jabbar", "Arakani", "Shofi", "Rofiq", "Mishu"];
+var bookName = "JavaScript";
+var car = {
+    name: "ARMM",
+    model: "ARMM130",
+    mfg: 2000
+}
+// Check if it's an array
+console.log(
+    "Array : " + Array.isArray(nameList) +
+    "Array : " + Array.isArray(bookName) +
+    "Array : " + Array.isArray(car)
+
+);
