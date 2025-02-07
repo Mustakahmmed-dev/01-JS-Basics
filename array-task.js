@@ -37,3 +37,13 @@ console.log(
     "Array : " + Array.isArray(car)
 
 );
+
+// Combining two arrays together and show first both arrays and combined array
+let booksForDis = ["JS", "Python", "PHP", "Java", "C", "C++", "ABC"];
+let customers = ["Faruk", "Rofiq", "Korim", "Mohammad Ali", "Jani"];
+
+console.log("The books list : " + booksForDis);
+console.log("The customers List: " + customers)
+
+let booksCustomers = booksForDis.concat(customers);
+console.log("The combined list : " + booksCustomers);
