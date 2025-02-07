@@ -78,3 +78,19 @@ if(myScore < 80){
 else{
     console.log("Have an icecream party")
 }
+
+// Number doubling and ternary usage
+
+let num1 = 25;
+let num2 = 20;
+let result;
+
+if(num1 > num2){
+    result = num1 * num1 + num2;
+}
+else{
+    result = num1 + num2;
+    
+}
+console.log("The result is " + result)
+
